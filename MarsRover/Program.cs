@@ -6,7 +6,7 @@ namespace MarsRover
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var plateau = new Plateau(5, 5);
         }
     }
 }
