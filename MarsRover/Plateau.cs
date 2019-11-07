@@ -6,7 +6,7 @@ using System.Linq;
 
 namespace MarsRover
 {
-    class Plateau
+    public class Plateau
     {
         public List<Point> Points { get; } = new List<Point>();
         public List<IRover> Rovers { get; } = new List<IRover>();
@@ -49,7 +49,7 @@ namespace MarsRover
 
             if (point is null)
             {
-                Console.WriteLine("Rover outside the plateau!");
+                Console.WriteLine("Invalid coordinate!");
                 return;
             }
 

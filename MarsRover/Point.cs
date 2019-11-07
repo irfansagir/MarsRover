@@ -2,7 +2,7 @@
 
 namespace MarsRover
 {
-    class Point : IEquatable<Point>
+    public class Point : IEquatable<Point>
     {
         public int X { get; }
         public int Y { get; }

@@ -2,7 +2,7 @@
 
 namespace MarsRover.Impl
 {
-    interface IMoveManager
+    public interface IMoveManager
     {
         Direction TurnLeft(IRover rover);
         Direction TurnRight(IRover rover);

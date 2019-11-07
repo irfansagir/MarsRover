@@ -2,7 +2,7 @@
 
 namespace MarsRover.Impl
 {
-    interface IRover
+    public interface IRover
     {
         Point Point { get; }
         Direction Direction { get; }
